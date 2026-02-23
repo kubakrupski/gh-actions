@@ -1,0 +1,10 @@
+name: Example action
+on: workflow_dispatch
+jobs:
+  first-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print it
+        run: echo "Example"
+      - name: Exit
+        run: echo "Exit"
